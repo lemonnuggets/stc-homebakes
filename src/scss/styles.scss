@@ -1,12 +1,15 @@
-$bg-color: lightblue;
-$secondary-color: lightgreen;
-$border-color: black;
+// *Color Codes for reference*
+// Hex 1 : #FFF3F1
+// Hex Footer: #4B4B4B
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
-// body {
-//     background: $bg-color;
-//     border: solid $border-color;
-// }
-// .container {
-//     background: $secondary-color;
-//     border: solid $border-color;
-// }
+$theme-colors: (
+    primary: #fff3f1,
+);
+@import "../../node_modules/bootstrap/scss/bootstrap";
+.body {
+    width: 100% !important;
+    overflow: hidden;
+}
