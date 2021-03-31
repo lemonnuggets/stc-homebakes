@@ -2,6 +2,10 @@
     background-color: #fff3f1;
     border: none;
 }
+.custom-dark {
+    background-color: #4b4b4b;
+    border: none;
+}
 .card {
     height: 100%;
     border-radius: 15px;
