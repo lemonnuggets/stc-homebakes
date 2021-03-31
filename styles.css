@@ -20,17 +20,9 @@ h2::after {
     background-color: #ffb0a8;
     display: block;
 }
-/* #home,
-#recipes,
-#tricks {
-    min-height: 100vh;
-} */
 img {
     max-width: 100%;
 }
-/* h4 {
-    margin: 3px 0px 3px 0px;
-} */
 #tricks > li {
     margin: 10px;
 }
@@ -38,12 +30,15 @@ img {
     position: absolute;
     top: -0%;
     right: -0%;
-    transform: translate(25%, -50%);
+    transform: translate(20%, -50%);
     width: 25%;
 }
-/* @media screen and (min-width: 576px) {
-    .card-image > img {
-        position: absolute;
-        width: 25%;
+@media screen and (min-width: 576px) {
+    .header-stuck {
+        padding: 3px !important;
+        margin: 0 !important;
     }
-} */
+    .navbar {
+        transition: 300ms;
+    }
+}
