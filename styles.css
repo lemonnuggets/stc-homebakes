@@ -20,6 +20,11 @@ h2::after {
     background-color: #ffb0a8;
     display: block;
 }
+/*Dealing with bootstrap nav weirdness*/
+.nav-link:focus:not(.active),
+.nav-link:hover:not(.active) {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
 img {
     max-width: 100%;
 }
