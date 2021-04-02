@@ -1,3 +1,6 @@
+.card {
+    z-index: 100;
+}
 .decoration-container {
     width: 100%;
 }
@@ -13,11 +16,9 @@
     right: 0;
 }
 #circle3 {
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(75%);
     float: right;
     right: 0;
-    z-index: -0.5;
-    padding-bottom: -100px;
 }
 .custom-light {
     background-color: #fff3f1;
