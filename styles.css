@@ -13,8 +13,13 @@
     transform: translateY(30%);
 }
 #circle2 {
-    top: 500px;
-    right: 0;
+    position: absolute;
+    transform: rotate(90deg);
+    top: -20%;
+    left: 50%;
+}
+.navbar {
+    background: transparent !important;
 }
 #circle3 {
     transform: rotate(180deg) translateY(75%);

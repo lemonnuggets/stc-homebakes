@@ -1,9 +1,5 @@
 let skip = false;
 window.onscroll = () => {
-    // console.log(document.body.scrollTop, document.documentElement.scrollTop);
-    // console.log(!skip);
-    // if (!skip) {
-    console.log("switching");
     document
         .querySelector(".navbar")
         .classList.toggle(
@@ -12,12 +8,10 @@ window.onscroll = () => {
                 document.documentElement.scrollTop > 50
         );
     setTimeout(500);
-    // }
-    // skip = !skip;
 };
 const scrollOptions = {
     behavior: "smooth",
-    block: "center",
+    block: "start",
 };
 console.log(document.querySelectorAll("a").forEach);
 document.querySelectorAll("a").forEach((element) => {
