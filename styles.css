@@ -21,9 +21,6 @@
     float: right;
     right: 0;
 }
-#home {
-    padding-top: 200px !important;
-}
 .custom-light {
     background-color: #fff3f1;
     border: none;
@@ -83,6 +80,9 @@ img {
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(246, 211, 208);
 }
+#home {
+    padding-top: 100px !important;
+}
 @media screen and (min-width: 576px) {
     .header-stuck {
         padding: 3px !important;
@@ -90,5 +90,8 @@ img {
     }
     .navbar {
         transition: 300ms;
+    }
+    #home {
+        padding-top: 200px !important;
     }
 }
