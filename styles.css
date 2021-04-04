@@ -10,6 +10,7 @@
 }
 #circle1 {
     float: left;
+    transform: translateY(30%);
 }
 #circle2 {
     top: 500px;
@@ -19,6 +20,9 @@
     transform: rotate(180deg) translateY(75%);
     float: right;
     right: 0;
+}
+#home {
+    padding-top: 200px !important;
 }
 .custom-light {
     background-color: #fff3f1;
@@ -59,6 +63,25 @@ img {
     right: -0%;
     transform: translate(20%, -50%);
     width: 25%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff3f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffdcd9;
+    border-radius: 7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(246, 211, 208);
 }
 @media screen and (min-width: 576px) {
     .header-stuck {
