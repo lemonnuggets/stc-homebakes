@@ -18,8 +18,20 @@
     top: -20%;
     left: 50%;
 }
+/* .show,
+.collapsing {
+    width: 100% !important;
+    background-color: #fff3f1;
+} */
+.navbar-toggler {
+    margin-left: auto !important;
+}
 .navbar {
-    background: transparent !important;
+    background: transparent;
+    transition: background 200ms;
+}
+.navbar-opaque {
+    background: #fff3f1;
 }
 #circle3 {
     transform: rotate(180deg) translateY(75%);
