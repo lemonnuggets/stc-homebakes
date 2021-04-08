@@ -14,15 +14,10 @@
 }
 #circle2 {
     position: absolute;
-    transform: rotate(90deg);
-    top: -20%;
+    transform: translateY(-33%) rotate(90deg);
+    top: 0;
     left: 50%;
 }
-/* .show,
-.collapsing {
-    width: 100% !important;
-    background-color: #fff3f1;
-} */
 .navbar-toggler {
     margin-left: auto !important;
 }
