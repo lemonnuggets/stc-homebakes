@@ -79,7 +79,7 @@ img {
 
 ::-webkit-scrollbar-thumb {
     background: #4b4b4b;
-    border-radius: 7px;
+    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-track {
