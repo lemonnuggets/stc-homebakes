@@ -15,8 +15,10 @@
 #circle2 {
     position: absolute;
     transform: rotate(90deg);
-    top: -20%;
+    top: -130px;
     left: 50%;
+    width: 10%;
+    min-width: 90px;
 }
 /* .show,
 .collapsing {
