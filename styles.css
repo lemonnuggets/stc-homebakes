@@ -14,17 +14,12 @@
 }
 #circle2 {
     position: absolute;
-    transform: rotate(90deg);
-    top: -130px;
+    transform: translateY(-33%) rotate(90deg);
+    top: 0;
     left: 50%;
     width: 10%;
     min-width: 90px;
 }
-/* .show,
-.collapsing {
-    width: 100% !important;
-    background-color: #fff3f1;
-} */
 .navbar-toggler {
     margin-left: auto !important;
 }
@@ -84,20 +79,17 @@ img {
     width: 10px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: #fff3f1;
-}
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #ffdcd9;
-    border-radius: 7px;
+    background: #4b4b4b;
+    border-radius: 4px;
 }
 
-/* Handle on hover */
+::-webkit-scrollbar-track {
+    background: #ffdcd9;
+}
+
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(246, 211, 208);
+    background: #474747;
 }
 #home {
     padding-top: 100px !important;
